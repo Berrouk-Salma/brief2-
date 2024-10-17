@@ -346,15 +346,24 @@ nav ul li a:hover {
   color: #6A6A6A;
   font-size: 2%;
 }
-.articles{
-  display: flex;
-  flex-flow: row wrap;
+.articles {
+  display: flex; /* Use flexbox for horizontal layout */
+  gap: 20px; /* Space between each article */
+  justify-content: center; /* Center the articles */
 }
-.articles > div >img{
-  width: 400px;
-  height: 400px;
+
+.articles div {
+  flex: 1; /* Makes each article take equal space */
+  text-align: center; /* Center text under each image */
 }
-.H2{
-  font-size: 200%;
+
+.articles img {
+  max-width: 100%; /* Ensure images are responsive */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 15px;
 }
-  
+.articles h3 {
+  font-size: 16px; /* Adjusts the font size to be smaller */
+  color: #242565; /* Sets the text color to a blue shade */
+  margin: 10px 0; /* Adds space above and below the heading */
+}

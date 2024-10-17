@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+/* .first_part{
+    background: linear-gradient(90deg, rgba(231, 59, 145, 0.9), rgba(141, 15, 224, 0.9)), no-repeat center center;
+    background-size: 100%;
+} */
+.container_first_part{
+    width: 100%;
+    margin: auto;
+    height: 90vh;
+    position: relative;
+}
+header {
+    background: linear-gradient(90deg, rgba(231, 59, 145, 0.9), rgba(141, 15, 224, 0.9)), no-repeat center center;
+    background-size: 100%;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    
+}
+
+.logo {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 30px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 10px 20px;
+}
+
+nav ul li a:hover {
+    background-color: #000080;
+    padding: 5px 10px;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.login-btn {
+    padding: 10px 20px;
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.login-btn:hover {
+    background-color: white;
+    color: #7209b7;
+}
+.second-part {
+    text-align: center;  /* Center the text */
+    margin-bottom: 20px; /* Space below the title */
+}
+
+.speakers h1 {
+    text-align: center; 
+    color: #C54FAB;      /* Change the color of the title */
+    font-size: 2.5em;    /* Make the title larger */
+
+}
