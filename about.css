@@ -70,111 +70,44 @@ nav ul li a:hover {
     background-color: white;
     color: #7209b7;
 }
-.second-part {
+.hero {
+    position: relative;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
     display: flex;
-    justify-content: space-between;
-    text-align: center;  /* Center the text */
-    margin-bottom: 20px; /* Space below the title */
-}
-
-.speakers h1 {
-    text-align: center; 
-    color: #C54FAB;      /* Change the color of the title */
-    font-size: 2.5em;    /* Make the title larger */
-
-
-}
-.first-img {
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    margin: 10px auto; 
-    max-width: 100%; 
-}
-
-.first-img div {
-    width: 500px; 
-    height: 500px; 
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-}
-
-.first-img img {
-    width: 40%; 
-    height: auto;
-    border-radius: 10px;
-}
-
-.sen-img {
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    margin: 10px auto; 
-    max-width: 100%; 
-}
-
-.sen-img div {
-    width: 500px; 
-    height: 500px; 
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-}
-
-.sen-img img {
-    width: 40%; 
-    height: auto;
-    border-radius: 10px;
-}
-
-.thi-img {
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    margin: 10px auto; 
-    max-width: 100%; 
-}
-
-.thi-img div {
-    width: 500px; 
-    height: 500px; 
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-}
-
-.thi-img img {
-    width: 40%; 
-    height: auto;
-    border-radius: 10px;
-}
-
-.first-img, .sen-img, .thi-img {
-    display: flex;
-    justify-content: center; 
-    flex-wrap: wrap; 
-    margin: 20px 0;
-}
-
-.o-img, .s-img, .t-img, .f-img, .fi-img, .se-img, .sv-img, .ei-img, .ni-img {
-    display: flex;
-    flex-direction: column; 
+    flex-direction: row;
     align-items: center;
-    margin: 10px; 
+    justify-content: space-evenly;
 }
 
-.icons {
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    margin-top: 10px; 
+.hero img {
+    left: 50px; 
+    margin-top: 50px;
+    width: 60%;
+    height: 70%;
+    
+}
+.hero_1{
+    width: 35%;
+    margin-right: 80px;
+    margin-bottom: 80px;
+}
+.hero-text {
+    width: 500px;
 }
 
-.icons img {
-    width: 30px; 
-    height: auto; 
-    margin: 0 5px; 
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 40px;
+    text-align: start;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    text-align: start;
+    color: #000080;
 }
 footer {
     background-color: rgb(23, 0, 106);
@@ -279,5 +212,6 @@ footer {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
   }
   
+
 
 

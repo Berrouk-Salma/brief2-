@@ -8,10 +8,10 @@ body {
     background-size: cover;
 }
 .container_first_part{
-    width: 75%;
-    margin: auto;
-    height: 100vh;
-   
+  width: 100%;
+  margin: auto;
+  height: 100vh;
+  position: relative;
 }
 
   .form-box-head{
