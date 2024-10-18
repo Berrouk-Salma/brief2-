@@ -16,7 +16,7 @@ header {
     background: linear-gradient(90deg, rgba(231, 59, 145, 0.9), rgba(141, 15, 224, 0.9)), no-repeat center center;
     background-size: 100%;
     padding: 20px;
-    width: 100%;
+    width: 97%;
     display: flex;
     justify-content: space-between;
     align-items: center; 
@@ -71,6 +71,8 @@ nav ul li a:hover {
     color: #7209b7;
 }
 .second-part {
+    display: flex;
+    justify-content: space-between;
     text-align: center;  /* Center the text */
     margin-bottom: 20px; /* Space below the title */
 }
@@ -80,11 +82,71 @@ nav ul li a:hover {
     color: #C54FAB;      /* Change the color of the title */
     font-size: 2.5em;    /* Make the title larger */
 
+
 }
+.first-img {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin: 10px auto; 
+    max-width: 100%; 
+}
+
+.first-img div {
+    width: 500px; 
+    height: 500px; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
 .first-img img {
-    width: 20%;
-    max-width: 100%;
+    width: 40%; 
     height: auto;
     border-radius: 10px;
-    justify-content: space-between; 
 }
+
+.sen-img {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin: 10px auto; 
+    max-width: 100%; 
+}
+
+.sen-img div {
+    width: 500px; 
+    height: 500px; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.sen-img img {
+    width: 40%; 
+    height: auto;
+    border-radius: 10px;
+}
+
+.thi-img {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin: 10px auto; 
+    max-width: 100%; 
+}
+
+.thi-img div {
+    width: 500px; 
+    height: 500px; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.thi-img img {
+    width: 40%; 
+    height: auto;
+    border-radius: 10px;
+}
+
