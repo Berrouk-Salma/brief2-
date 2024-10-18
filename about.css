@@ -2,10 +2,7 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
-/* .first_part{
-    background: linear-gradient(90deg, rgba(231, 59, 145, 0.9), rgba(141, 15, 224, 0.9)), no-repeat center center;
-    background-size: 100%;
-} */
+
 .container_first_part{
     width: 100%;
     margin: auto;
@@ -71,10 +68,14 @@ nav ul li a:hover {
     color: #7209b7;
 }*
 .about h1 {
-   text-align: right;
     color: #C54FAB;      
     font-size: 2.5em;   
-} 
+}
+#textabout {
+    color:#C54FAB;
+    margin-right: 70%; 
+     font-size: 2em; 
+}
 .hero {
     position: relative;
     color: white;
@@ -192,7 +193,7 @@ footer {
   
   .newsletter-form button {
     position: absolute;
-    right: 5px;
+    left: 15em;
     top: 50%;
     transform: translateY(-50%);
     padding: 0.5rem 1rem;
