@@ -10,7 +10,7 @@ body {
 .container_first_part{
   width: 100%;
   margin: auto;
-  height: 100vh;
+  height: 100%;
   position: relative;
 }
 
